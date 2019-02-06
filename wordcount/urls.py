@@ -5,7 +5,7 @@ from . import views
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('kkm/', views.homepage),
+    path('homepage/', views.homepage),
     path('count/',views.count, name="count"),
     path('about/',views.about, name="about")
 ]
